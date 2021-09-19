@@ -1,0 +1,86 @@
+@media (max-width:24em){
+    html{
+        font-size: 48%;
+        overflow-x: hidden;
+    }
+    body{
+        width: 100%;
+        overflow-x: hidden;
+    }
+    .head-container{
+        max-width: 40rem;
+    }
+    .logo{
+        width: 30%;
+    }
+    .try{
+        padding: 0.6rem 4rem;
+        font-size: 1.2rem;
+    }
+    .hero{
+        max-width: 40rem;
+
+    }
+    .hero-content h1{
+        font-size: 3rem
+    }
+    .hero-content p{
+        padding: 2.2rem 3rem 3rem;
+        margin-bottom: 3rem;
+    }
+    .flex-row{
+        flex-direction: column;
+        gap: 8.8rem;
+    }
+    .container-b{
+        max-width: 40rem;
+        grid-template-columns: 1fr;
+        gap: 8.8rem;
+    }
+    .b-content{
+        text-align: center;
+    }
+    .b-content h1{
+        font-size: 3rem;
+    }
+    .b-content p{
+        padding-right: 0;
+        margin-top: 2rem;
+        line-height: 1.6;
+        padding: 0 2rem;
+    }
+    .b-img{
+        text-align: center;
+        grid-row: 1;
+    }
+    .b-img.c {
+        text-align: center;
+    }
+    .container-community{
+        max-width: 40rem;
+    }
+    .container-community h1{
+        font-size: 3rem;
+        margin-bottom: 5rem;
+    }
+    .grid{
+        grid-template-columns: 1fr;
+        justify-content: center;
+    }
+    .company p , .newsletter p {
+        padding-right: 0;
+    }
+    .footer-logo{
+        width: 60%;
+    }
+    .footer-svg{
+        margin-bottom: -1rem;
+    }
+    button{
+        margin-left: 11.4rem;
+        margin-top: 2.2rem;
+    }
+    .newsletter{
+        grid-row: 1;
+    }
+}
